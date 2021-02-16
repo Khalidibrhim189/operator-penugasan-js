@@ -1,16 +1,23 @@
-// Operator Matemmatika
+//Operator Kondisional
+
+/*
+
+if(false){
+    aksi.
+}
+
+*/
+
+// selamat mencoba
 
 
-var namaDepan = 'Khalid';
-var namaBelakang = ' Ibrahim';
+var jumlahUang = 2000;
+if(jumlahUang == 2000){
+    console.log('Uang anda berjumlah 2000')
+}
+// }  ===> Ini yang bener
 
-var gabunganNama = namaDepan + namaBelakang;
-
-
-var usia = 21;
-
-
-document.getElementById('name').innerHTML = gabunganNama;
-document.getElementById('usia').innerHTML = usia;
-
-console.log(typeof(usia));
+// var jumlahUang = 2000;
+// if(jumlahUang == 1000) {
+//     console.log('Jumlah uang anda 2000')
+// } ===> ini salah guys
